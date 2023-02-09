@@ -21,7 +21,12 @@ const AppItem = props => {
         </div>
         <div className="delete-container">
           <p className="duration">{duration}</p>
-          <button className="button" testid="delete" type="button" onClick={ok}>
+          <button
+            className="button"
+            data-testid="delete"
+            type="button"
+            onClick={ok}
+          >
             <AiOutlineDelete className="del" />
           </button>
         </div>
